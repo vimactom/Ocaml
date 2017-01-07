@@ -1,5 +1,6 @@
 (*目的：２つの整数の組pairを受け取り、その要素の和を返す*)
 (*add : int * int -> *)
+<<<<<<< HEAD
 let add pair = match pair with (a,b) -> a + b
 
 (*test*)
