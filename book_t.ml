@@ -3,11 +3,11 @@ type book_t = {
     author : string;
     publisher : string;
     price : int;
-    ISBN : string;
+    isbn : string;
 }
 
 {title = "dragon";
  author = "sunadori";
  publisher = "shougakukan";
  price = 3000;
- ISVN = "23brht3"}
+ isbn = "23brht3"}
