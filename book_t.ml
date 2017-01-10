@@ -6,8 +6,3 @@ type book_t = {
     isbn : string;
 }
 
-{title = "dragon";
- author = "sunadori";
- publisher = "shougakukan";
- price = 3000;
- isbn = "23brht3"}
