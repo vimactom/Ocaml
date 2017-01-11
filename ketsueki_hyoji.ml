@@ -9,9 +9,9 @@ type person_t = {
 
 (*目的：person_tを受け取り血液型を返す*)
 (*ketsueki_hyoji : person_t -> string*)
-let ketstueki_hyoji person = match pair with
+let ketsueki_hyoji person = match person with
     {namae = a; shinchou = b; taijyu = c; tanjyoubi = (d,e); ketsueki = f} ->
     a^"さんの血液型は"^f^"型です"
 
 (*テスト*)
-let test1 = person_t = {namae = "kiyoko"; shinchou = 123.; taijyu = 34.; tanjyoubi = (12,23); ketsueki = "B"} = "kiyokoさんの血液型はB型です"
+let test1 = ketsueki_hyoji {namae = "kiyoko"; shinchou = 123.; taijyu = 34.; tanjyoubi = (12,23); ketsueki = "B"} = "kiyokoさんの血液型はB型です"
